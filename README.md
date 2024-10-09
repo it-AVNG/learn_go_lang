@@ -21,8 +21,10 @@ The relevent code can be seen in `./hello.go`.
 
 To run the code, use `go run path/to/go/file` command.
 
-> \[!info\]
+> [!info] Keeping track of your imports:
 > In case we would like to use an external package, we can add to `go.mod` file.
 > To add to the `go.mod` file, we can import the package in our code.
 > Then run `go mod tidy` command, the command will automatically detect imports,
-> and update our `go.mod` file. Simultaneously, the command also creates a `go.sum` file
+> and update our `go.mod` file. Simultaneously, the command also creates a `go.sum` file.
+
+
